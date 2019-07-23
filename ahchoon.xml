@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+
+         <titleStmt>
+            <title>Four Short Stories: A Digital Edition</title>
+            <author>
+               <persName>Fanny Van de Grift Stevenson</persName>
+            </author>
+            <editor> R Pritzker </editor>
+            <principal> A Lang </principal>
+            <funder> Centre for Data, Culture, and Society: University of Edinburgh </funder>
+         </titleStmt>
+         <publicationStmt>
+            <ab><!-- unpublished manuscripts with permission of the Robert Louis Stevenson Museum in St. Helena, California--></ab>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <settlement>St. Helena, California</settlement>
+                  <repository>Robert Louis Stevenson Museum</repository>
+                  <idno>Scrapbook 1</idno>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+
+      </fileDesc>
+      <profileDesc>
+         <handNotes>
+            <handNote xml:id="ScribeA" scribeRef="FVS">Clear, cursive script</handNote>
+         </handNotes>
+      </profileDesc>
+   </teiHeader>
+
+
+
+   <text>
+      <body>
+         <pb/>
+         <div hand="#ScribeA">
+            <head type="title">Ah Choon and the Sorcerer</head>
+            <p> A Chinese fisherman of <placeName corresp="FSTEI_Ography_120719#amoy"
+                  >Amoy</placeName> for many days had cast his nets only to draw them to land empty.
+               Walking the streets that he might there-by forget in some degree the hunger that
+               assailed him, he encountered a figure that arrested his attention. It was that of a
+               beggar apparently in the most abject destitution. His skin was filthy, and he was
+               clothed in rags; <span ana="FSTEI_Ography_120719#wonder">There was a weird strange
+                  look in his eyes, and a gleam of intelligence at variance with his condition shone
+                  through the dirt that encrusted his face.</span>
+               <persName corresp="FSTEI_Ography_120719#ahchoon">Ah Choon</persName>, the fisherman,
+               felt that somewhere before he had met <seg corresp="FSTEI_Ography_120719#sorcerer"
+                  >the beggar</seg> when he presented a very different aspect. At last it <said
+                  who="FSTEI_Ography_120719#ahchoon" toWhom="FSTEI_Ography_120719#ahchoon"
+                  aloud="false" direct="false">occurred to him that it must be an emperor’s
+                  sorcerer,</said> who had probably chosen this disguise that he might walk the
+               streets undisturbed by the prayers and solicitations of those who believed in his
+               powers.</p>
+            <p><seg corresp="FSTEI_Ography_120719#sorcerer">This great magician</seg>
+               <said who="FSTEI_Ography_120719#narratorD" direct="false">was said to know</said> all
+               things known to man or devils. <span ana="FSTEI_Ography_120719#wonder">He could
+                  foretell deaths, and the rise and fall of empires, so great was his knowledge that
+                  the spirits of the air had limited him in his prophecies.</span>
+               <span ana="FSTEI_Ography_120719#gothic">If he told all he knew fierce lightning would
+                  burst from the sky and devour him in its fire.</span></p>
+            <p><persName corresp="FSTEI_Ography_120719#ahchoon">Ah Choon </persName>bowed his head
+               to the ground before <seg corresp="FSTEI_Ography_120719#sorcerer">the sorcerer</seg>
+               and cried <said who="FSTEI_Ography_120719#ahchoon"
+                  toWhom="FSTEI_Ography_120719#sorcerer" aloud="true">“give me something I beseech
+                  you” <!-- problem here? Check source --> Give me something, I beseech you or I
+                  will implore you forever!”</said></p>
+            <p><said who="FSTEI_Ography_120719#sorcerer" toWhom="FSTEI_Ography_120719#ahchoon"
+                  aloud="true" direct="true">“Rise my son,” said <seg
+                     corresp="FSTEI_Ography_120719#sorcerer">the sorcerer</seg>, “How can I give you
+                  what I have not myself? You see I am but a wretched beggar; it is you who must
+                  give to me.”</said></p>
+            <p><persName corresp="FSTEI_Ography_120719#ahchoon">Ah Choon</persName> still besought
+               him until the old man losing patience thrust him on one side. As he did so, <persName
+                  corresp="FSTEI_Ography_120719#ahchoon">Ah Choon</persName> snatched from his
+               breast a handful of the beggar’s rags and ran to cast his nets, throwing into them as
+               he did a scrap of the rags. <pb/> The nets came up bursting with fine large fish.</p>
+            <p><persName corresp="FSTEI_Ography_120719#ahchoon">Ah Choon</persName> hied him to the
+               market where he soon disposed of his fish for a good sum and went home his pockets
+               heavy with cash.</p>
+            <p>The next day <seg corresp="FSTEI_Ography_120719#ahchoon">he</seg> cast his nets again
+               with the same good luck. But when he went to the market to sell his fish <seg
+                  corresp="FSTEI_Ography_120719#mob">a jabbering crowd</seg> surrounded him. <said
+                  who="FSTEI_Ography_120719#mob" toWhom="FSTEI_Ography_120719#ahchoon">“Cheat!
+                  Swindler” They cried “Who sold us <seg ana="FSTEI_Ography_120719#wonder">enchanted
+                     fish</seg> that were fat and large when we bought them, and but empty air when
+                  we opened our baskets!”</said></p>
+            <p><seg corresp="FSTEI_Ography_120719#ahchoon">The Fisherman</seg>
+               <kinesic/>turned pale. <!-- missing inv comma(s)? -->
+               <said who="FSTEI_Ography_120719#ahchoon" toWhom="FSTEI_Ography_120719#mob"
+                  aloud="true">Here, my friends, he cried. choose from those I have caught today,
+                  and if the same thing happens again you will help me to find and punish <seg
+                     corresp="FSTEI_Ography_120719#sorcerer">the wicked sorcerer</seg> who has put a
+                  cheat both upon you and me!” And he told his story to <seg
+                     corresp="FSTEI_Ography_120719#mob">the gaping crowd.</seg></said></p>
+            <p>When they turned to fill their baskets, no fish were there; only a few fresh leaves.
+                  <persName corresp="FSTEI_Ography_120719#ahchoon">Ah Choon</persName> felt a chill
+               at his back. Turning he beheld <seg corresp="FSTEI_Ography_120719#sorcerer">the
+                  sorcerer</seg> in his beggar’s garb. All perceived him at the same moment.</p>
+            <p><said who="FSTEI_Ography_120719#mob" aloud="true">“Tis he!” They cried, “Tear him to
+                  pieces!”</said> And rushed forward to attack him. He smiled. <said
+                  who="FSTEI_Ography_120719#sorcerer" toWhom="FSTEI_Ography_120719#mob" aloud="true"
+                  >“One moment my children.” he said, “and you may do with me as you will. Let me
+                  amuse you first.”</said> As he said this he spat on the ground a black spittle
+               into which he dipped the end of his long finger and drew figures upon a white wall.
+                  <span ana="FSTEI_Ography_120719#gothic">As he drew the figures sprang from under
+                  his fingers, writhing over the wall in a hideous manner. The gaze of all who
+                  waited upon the little friends who leered at the spectators changed heads with
+                  each other, spread their mouths from ear to ear in demonish glee, struck at each
+                  other, and contorted their limbs.</span> So <seg ana="FSTEI_Ography_120719#gothic"
+                  >frightful an exhibition</seg> did it finally become that <seg
+                  corresp="FSTEI_Ography_120719#mob">the mob with one accord turned and fled.</seg>
+               Some of the boldest looking back saw <seg corresp="FSTEI_Ography_120719#sorcerer">the
+                  sorcerer</seg>, still serenely smiling, strike the figures dead with his staff,
+               wrap with rags about him and melt into a light gray cloud, which gradually dissolved
+               into the air. After that time <seg corresp="FSTEI_Ography_120719#ahchoon">the
+                  fisherman’s</seg> luck was variable, but he tried no more <seg
+                  corresp="FSTEI_Ography_120719#wonder">magic arts</seg> to increase his gains.</p>
+         </div>
+
+      </body>
+
+      <back>
+         <div type="editorial">
+            <listPerson>
+               <person xml:id="narratorD"> </person>
+               <person xml:id="ahchoon">
+                  <persName>Ah Choon</persName>
+                  <sex value="M"/>
+                  <trait type="species">
+                     <label>humanoid</label>
+                  </trait>
+                  <trait type="profession">
+                     <label>Fisherman</label>
+                  </trait>
+               </person>
+               <person>
+                  <persName>Mermaiden</persName>
+               </person>
+               <person xml:id="sorcerer">
+                  <persName>Sorcerer of the Sea</persName>
+                  <trait type="species">
+                     <label> Humanoid Wizard </label>
+                  </trait>
+               </person>
+               <personGrp xml:id="mob">
+                  <persName> the crowd </persName>
+                  <trait type="species">
+                     <label> human </label>
+                  </trait>
+               </personGrp>
+            </listPerson>
+            <interpGrp type="charActs">
+               <interp xml:id="grief">indicating a character's display of grief, sadness,
+                  loss.</interp>
+               <interp xml:id="fear">indicating a character's display of fear, anger, terror,
+                  distress.</interp>
+               <interp xml:id="joy">indicating a character's display of joy, happiness.</interp>
+               <interp xml:id="unsure">indicating a character's display of uncertainty, mistrust, or
+                  confusion.</interp>
+            </interpGrp>
+            <interpGrp type="genre">
+               <interp xml:id="gothic">Relating to themes, trends, conventions of the Gothic
+                  genre.</interp>
+               <interp xml:id="wonder">Relating to themes, trends, conventions of the wonder tale
+                  genre.</interp>
+            </interpGrp>
+         </div>
+      </back>
+   </text>
+</TEI>
