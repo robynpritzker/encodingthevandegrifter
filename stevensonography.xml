@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Four Short Stories: A Digital Edition</title>
+                <author>
+                    <persName>Fanny Van de Grift Stevenson</persName>
+                </author>
+                <editor> R Pritzker </editor>
+                <funder> Centre for Data, Culture, and Society: University of Edinburgh </funder>
+            </titleStmt>
+            <publicationStmt>
+                <ab><!-- unpublished manuscripts with permission of the Robert Louis Stevenson Museum in St. Helena, California--></ab>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>St. Helena, California</settlement>
+                        <repository>Robert Louis Stevenson Museum</repository>
+                        <idno>Scrapbook 1</idno>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+
+    <text>
+        <body>
+            <div type="editorial">
+
+                <listPerson type="GrandBorriballoo">
+                    <person xml:id="narratorA"> </person>
+                    <person xml:id="belinda">
+                        <persName>Belinda Smith</persName>
+                        <sex value="F"/>
+                        <trait type="species">
+                            <label>human</label>
+                        </trait>
+                    </person>
+                    <person xml:id="lallagagog">
+                        <persName>Lallagagog</persName>
+                        <sex value="M"/>
+                        <trait type="species">
+                            <label>giant</label>
+                        </trait>
+                    </person>
+                    <person xml:id="giant">
+                        <persName>the Giant</persName>
+                        <sex value="M"/>
+                        <trait type="species">
+                            <label>giant</label>
+                        </trait>
+                    </person>
+                    <person xml:id="borriballoo">
+
+                        <persName>Grand Borriballoo</persName>
+                        <trait type="species">
+                            <label>humanoid creature</label>
+                            <desc>flowers for hair, long glittering tail, three legs</desc>
+                        </trait>
+                    </person>
+                </listPerson>
+
+                <listPerson type="RaveningSheep">
+                    <person xml:id="narratorB"> </person>
+                    <person xml:id="sheep">
+                        <persName>Sheep</persName>
+                        <sex value="F"/>
+                        <trait type="species">
+                            <label>Sheep</label>
+                        </trait>
+                    </person>
+                    <person>
+                        <persName>Lamb</persName>
+                    </person>
+                    <person>
+                        <persName>she-wolf</persName>
+                    </person>
+                    <person xml:id="haymaker">
+                        <persName>the Haymaker</persName>
+                        <trait type="species">
+                            <label>Human</label>
+                        </trait>
+                    </person>
+                    <person xml:id="shepherd">
+                        <persName>the shepherd</persName>
+                        <trait type="species">
+                            <label>Human</label>
+                        </trait>
+                    </person>
+                </listPerson>
+
+                <listPerson type="Hunchback">
+                    <person xml:id="narratorC"> </person>
+                    <person xml:id="boy">
+                        <persName>the Hunchback</persName>
+                        <sex value="M"/>
+                        <trait type="species">
+                            <label>humanoid</label>
+                        </trait>
+                    </person>
+                    <person xml:id="parents">
+                        <persName>parents</persName>
+                    </person>
+                    <person xml:id="bird">
+                        <persName>brown bird</persName>
+                        <trait type="species">
+                            <label>bird</label>
+                        </trait>
+                    </person>
+                </listPerson>
+
+                <listPerson type="AhChoon">
+                    <person xml:id="narratorD"> </person>
+                    <person xml:id="ahchoon">
+                        <persName>Ah Choon</persName>
+                        <sex value="M"/>
+                        <trait type="species">
+                            <label>humanoid</label>
+                        </trait>
+                        <trait type="profession">
+                            <label>Fisherman</label>
+                        </trait>
+                    </person>
+                    <person xml:id="sorcerer">
+                        <persName>Sorcerer of the Sea</persName>
+                        <trait type="species">
+                            <label> Humanoid Wizard </label>
+                        </trait>
+                    </person>
+                    <personGrp xml:id="mob">
+                        <persName> the crowd </persName>
+                        <trait type="species">
+                            <label> human </label>
+                        </trait>
+                    </personGrp>
+                </listPerson>
+
+                <listPlace type="Borriballoo">
+                    <place xml:id="gianthouse" type="home">
+                        <desc> Large mansion with kitchens, many bedrooms, and dining rooms, space
+                            enough for at least two full-grown giants and a cook. </desc>
+                    </place>
+                    <place xml:id="bforest">
+                        <place/>
+                    </place>
+                </listPlace>
+
+                <listPlace type="Sheep">
+                    <place xml:id="meadow" type="region">
+                        <desc> X </desc>
+                    </place>
+                </listPlace>
+
+                <listPlace type="Hunchback">
+                    <place xml:id="hforest" type="XX">
+                        <desc> X </desc>
+                    </place>
+                </listPlace>
+
+                <listPlace type="AhChoon">
+                    <place xml:id="amoy" type="region">
+                        <desc> X </desc>
+                    </place>
+                </listPlace>
+
+
+                <interpGrp type="charActs">
+                    <interp xml:id="grief">indicating a character's display of grief, sadness,
+                        loss.</interp>
+                    <interp xml:id="fear">indicating a character's display of fear, anger, terror,
+                        distress.</interp>
+                    <interp xml:id="joy">indicating a character's display of joy,
+                        happiness.</interp>
+                    <interp xml:id="unsure">indicating a character's display of uncertainty,
+                        mistrust, or confusion.</interp>
+                </interpGrp>
+
+                <interpGrp type="genre">
+                    <interp xml:id="gothic">Relating to themes, trends, conventions of the Gothic
+                        genre.</interp>
+                    <interp xml:id="wonder">Relating to themes, trends, conventions of the wonder
+                        tale genre.</interp>
+                </interpGrp>
+                
+                <interpGrp type="structure">
+                    <interp></interp>
+                    <interp></interp>
+                    <interp></interp>
+                    <interp></interp>
+                </interpGrp>
+                
+
+
+
+            </div>
+        </body>
+    </text>
+</TEI>
