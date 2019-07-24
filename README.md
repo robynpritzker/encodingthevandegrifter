@@ -1,27 +1,5 @@
-# Marat
+# Encoding the Vandegrifter
 
-![Marat](https://raw.githubusercontent.com/JohnCoene/marat/master/assets/img/screenshot.png)
+<p>Between the years of 1878 and 1899, Fanny Van de Grift Stevenson published nine short stories in magazines including Belgravia, Lippincott’s, McClure’s, and Scribner’s. Stevenson wrote Gothic tales of ghosts, otherworldly realms, and the traumas of femininity, with psychological subtexts regarding identity, loss, and death. Her work was influenced in content by her experiences raising children in mining camps of the western U.S. frontier, and in context by her global travels and affiliations with various authors. Yet, Stevenson does not qualify as a “forgotten voice” of women’s literary history, as virtually everything about her life is known through the fact of her marriage to her husband Robert Louis Stevenson––her writing has simply been left unevaluated. </p>
 
-Revive the values of the Enlightenment with `marat`.
-
-See [Marat in action](http://marat.john-coene.com).
-
-Marat is heavily inspired by [L'Ami du peuple](https://en.wikipedia.org/wiki/L%27Ami_du_peuple), a newspaper written by [Jean-Paul Marat](https://en.wikipedia.org/wiki/Jean-Paul_Marat) during the French Revolution, in which he was a j vocal advocate for the rights of man and liberty.
-
-1. Adapt the `_config.yml` file
-2. Replace/Delete the posts
-3. Change `about.md`
-4. Change or add your links in the `nav.yml` file located in the `_data` folder
-5. Replace the `favicon.ico`
-6. Customise the `404.md` page in the root directory
-6. Run `bundle exec jekyll serve --watch`
-7. Enlighten the masses!
-
-> Unlike Marat's pamphlets the theme is fully responsive.
-
-Plugins:
-
-Marat includes the following plugins.
-
-* [jekyll-roman](https://github.com/paulrobertlloyd/jekyll-roman)
-* [jekyll-seo-tag](https://github.com/jekyll/jekyll-seo-tag)
+<p>As a result of this dynamic, Fanny Van de Grift Stevenson's archives have been largely unstudied by literary scholars until now, and several short story manuscripts have recently been recovered from family scrapbooks in the Robert Louis Stevenson Museum in St. Helena, California. This project introduces those manuscripts, encoded using TEI markup, in order to demonstrate how valuable Stevenson's writing is to evolving understandings of American women's writing at the turn into the twentieth century, and to encourage further study of underacknowledged literary women.</p>
